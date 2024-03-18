@@ -4,7 +4,7 @@ import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types';
 
 
-const Blogs = ({handelBook}) => {
+const Blogs = ({handelBook,handelTime}) => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
@@ -15,16 +15,16 @@ const Blogs = ({handelBook}) => {
 
 
   return (
-    <div className="w-2/3 border-2">
-      <h2>Blogs:{blogs.length}</h2>
+    <div className="w-2/3 border-2 bg-slate-200" >
       {
-        blogs.map((blog , index) =><Blog blog={blog} handelBook={handelBook}
+        blogs.map((blog , index) =><Blog blog={blog} handelTime={handelTime} handelBook={handelBook}
          key={index}></Blog>)
       }
     </div>
   );
 };
 Blogs.propTypes={
-  handelBook:PropTypes.func.isRequired
+  handelBook:PropTypes.func.isRequired,
+  handelTime:PropTypes.func.isRequired
 }
 export default Blogs;
