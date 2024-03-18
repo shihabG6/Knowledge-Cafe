@@ -1,0 +1,47 @@
+[
+  {
+      "id": 1,
+      "cover": "https://i.ibb.co/DpN99hM/lily-valley-bouquet-with-alarm-clock-eyeglasses-laptop-blue-office-desk.jpg",
+      "title": "The Enigma of Quantum Entanglement",
+      "author": "Dr. Amelia Carter",
+      "author-img": "https://example.com/authors/amelia.jpg",
+      "posted_date": "2024-03-18",
+      "reading_time": 8
+  },
+  {
+      "id": 2,
+      "cover": "https://i.ibb.co/7b93Krh/top-view-workspace-with-copy-space-notebook-top-agenda.jpg",
+      "title": "Exploring Ancient Temples: A Journey Through Time",
+      "author": "Alex Turner",
+      "author-img": "https://example.com/authors/alex.jpg",
+      "posted_date": "2024-03-18",
+      "reading_time": 12
+  },
+  {
+      "id": 3,
+      "cover": "https://i.ibb.co/bg9Y8CP/pexels-dzenina-lukac-754263.jpg",
+      "title": "The Art of Bonsai: Cultivating Tranquility",
+      "author": "Elena Rodriguez",
+      "author-img": "https://example.com/authors/elena.jpg",
+      "posted_date": "2024-03-18",
+      "reading_time": 6 
+  },
+  {
+      "id": 4,
+      "cover": "https://i.ibb.co/b1x6px9/pexels-lisa-fotios-1252983.jpg",
+      "title": "Cooking Adventures: From Farm to Table",
+      "author": "James Parker",
+      "author-img": "https://example.com/authors/james.jpg",
+      "posted_date": "2024-03-18",
+      "reading_time": 10
+  },
+  {
+      "id": 5,
+      "cover": "https://i.ibb.co/9wLJZxF/pexels-maddy-freddie-6629379.jpg",
+      "title": "Stargazing Secrets: Unveiling the Night Sky",
+      "author": "Sophia Lee",
+      "author-img": "https://example.com/authors/sophia.jpg",
+      "posted_date": "2024-03-18",
+      "reading_time": 15 
+  }
+]
